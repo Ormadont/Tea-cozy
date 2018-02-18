@@ -40,15 +40,19 @@ a {
 }
 
 .mission {
-  position: relative;
   top: 69px;
   height: 700px;
   background-image: url("../images/img-mission-background.jpg");
-  background-size: cover;
+  align-items: center;
+  display: flex;
+  background-size: 1200px 700px;
+}
+
+.locations, .mission {
   background-position: center;
   margin: 0 60px;
-  display: flex;
-  align-items: center;
+  position: relative;
+  background-repeat: no-repeat;
 }
 
 .mission-title, .month-title {
@@ -60,6 +64,8 @@ a {
 .featured-tea {
   position: relative;
   top: 100px;
+  width: 1000px;
+  margin: auto;
 }
 
 .img-bite {
@@ -71,7 +77,10 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0 200px;
+}
+
+.month-title h4,h2 {
+  margin: 10px 0;
 }
 
 .tea-bite {
@@ -80,4 +89,49 @@ a {
 
 .tea-bite h4 {
   margin: 10px 0;
+}
+
+.box {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  height: 300px;
+  margin: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* text-align: space-around; */
+  /* align-items: space-around; */
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.locations {
+  background-image: url("../images/img-locations-background.jpg");
+  top: 150px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: 1200px 500px;
+  position: relative;
+}
+
+.locations h2 {
+  margin: 0;
+}
+
+footer {
+  position: relative;
+  top: 150px;
+}
+
+#copy {
+  text-align: left;
+  margin: 50px 0 30px 20px;
+
 }
