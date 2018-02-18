@@ -3,6 +3,43 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
   text-align: center;
+  margin: 0;
+  opacity: 0.9;
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  padding: 0 10px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  padding-right: 20px;
+}
+
+.empty {
+  flex-grow: 1;
+}
+
+nav span {
+  padding: 0 10px;
+}
+
+a {
+  color:inherit;
+}
+
+.content {
+  position: relative;
+  top: 69px;
 }
